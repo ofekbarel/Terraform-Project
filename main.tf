@@ -167,8 +167,8 @@ resource "azurerm_virtual_machine" "example" {
    provisioner "remote-exec" {
         inline = [
           "sudo apt update && sudo apt install -y python3.11 git",
-          "git clone ..........",
-          "cd ..........",
+          "git clone https://github.com/ofekbarel/baruchi",
+          "cd baruchi",
           "python3.11 app.py"
         ]
     }
