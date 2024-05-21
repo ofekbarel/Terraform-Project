@@ -26,3 +26,11 @@ variable "db_admin_password" {
     sensitive = true
   
 }
+
+variable "myIP" {
+    type = string
+    description = "myIP"
+    default = "77.137.75.66"
+    sensitive = true
+  
+}
