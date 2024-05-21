@@ -18,7 +18,7 @@ We will open the 5000 ports for the whole world and take access to our applicati
     az login
 
 2.  Clone this repostory:
-    git clone 
+    git clone https://github.com/ofekbarel/Terraform-Project
 
 3.   Change some variables:
      (terraform.tfvars)
