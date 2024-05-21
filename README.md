@@ -13,4 +13,4 @@
     terraform apply "tfplan"
 
 
-![alt text](http://url/to/Azure.png)
+![alt text](https://github.com/ofekbarel/Terraform-Project/blob/main/Azure.png?raw=true)
