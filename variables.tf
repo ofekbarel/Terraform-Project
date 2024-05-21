@@ -30,7 +30,7 @@ variable "db_admin_password" {
 variable "myIP" {
     type = string
     description = "myIP"
-    default = "77.137.75.66"
+    default = "your IP"
     sensitive = true
   
 }
