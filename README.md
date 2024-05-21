@@ -23,10 +23,16 @@ We will open the 5000 ports for the whole world and take access to our applicati
 3.   Change some variables:
      (terraform.tfvars)
      
-5.  Then you can start   apply your code ! :    
+4.  Then you can start   apply your code ! :    
     terraform init
-    terraform plan -out=tfplan
-    terraform apply "tfplan"
+
+5. terraform plan -out=tfplan
+    
+
+6.    terraform apply "tfplan"
+
+
+    
 
 
 ![alt text](https://github.com/ofekbarel/Terraform-Project/blob/main/Azure.png?raw=true)
