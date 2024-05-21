@@ -1,5 +1,7 @@
 In this project we will automatically deploy a machine with a postgres database and another machine that contains our flask application.
+
 A virtual network will be opened, and subnet for each machine. (db-subnet, web-subnet)
+
 We will set private static IP addresses for each machine,
 
 We will define nsg rules that will protect our database! And only computers with IP addresses from the web subnet will be able to access our database.
