@@ -11,3 +11,6 @@
     terraform init
     terraform plan -out=tfplan
     terraform apply "tfplan"
+
+
+![alt text](http://url/to/Azure.png)
