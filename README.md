@@ -16,12 +16,12 @@
 
 ## steps:
 
-1. ### Create Python App
+ ### 1. Create Python App
 First of all, we created a web application in Python using flask.
 Therefore, first of all we created app.py, and the file config.py which is used as a file that defines the connection to our database.
 In this application, the application accesses the database through a connection that we defined, and will return us an html page with the results from the postrges database
 
-2. ### add main.tf:
+### 2. add main.tf:
 The next step is to create **main.tf**, inside this file we will define all the resources we want to create in Azure,
 Among the resources we will create will be: a **virtual network**, which will contain **web-subnet** and **db-subnet**.
 For each subnet we will define **nsg rules** in order to maintain security especially in our database, and thus it is determined that only ip addresses from the web-subnet have access into the db-subnet.
