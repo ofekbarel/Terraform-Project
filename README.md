@@ -16,7 +16,8 @@
 
 ## steps:
 
-1. First of all, we created a web application in Python using flask.
+1. ### Create Python App
+First of all, we created a web application in Python using flask.
 Therefore, first of all we created app.py, and the file config.py which is used as a file that defines the connection to our database.
 In this application, the application accesses the database through a connection that we defined, and will return us an html page with the results from the postrges database
 
