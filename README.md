@@ -23,7 +23,7 @@ In this application, the application accesses the database through a connection 
 
 
 ### 2. Create providers.tf
-In order to configure the auzre cloud and which version
+In order to configure the azure cloud and which version
 
 
 
