@@ -48,6 +48,12 @@ We will create the file that installs and configures our postrges.
 Then we will copy the file with the help of a provisioner which will copy the script into the virtual machine, and then we will use another provisioner which will confirm the script.
 
 
+### Terraform 
+- **terraform init**
+- **terraform plan -out=tfplan**
+- **terraform apply tfplan**
+
+
 
 
 ---
